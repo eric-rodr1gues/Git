@@ -209,6 +209,62 @@ git log --oneline --graph
 
 ---
 
+## 😎 17. Clonar repositório
+
+```bash
+git clone link_do_repositorio
+```
+> Baixa a cópia do repositório para o computador em uma nova pasta/diretório local
+
+---
+
+## 🎃 18. Adicionar arquivo
+
+```bash
+echo "Conteúdo do arquivo" > nome_arquivo
+git add nome_arquivo
+git add .
+```
+> `echo` adiciona um texto para o arquivo.
+
+> `git add` prepara um determinado arquivo para a área de staging.
+
+> `git add .` prepara todos os arquivos modificados para o commit.
+
+---
+
+## 🍁 19. Criar commit
+
+```bash
+git commit -m "feat: Adiciona documentacao sobre integracao e colaboracao"
+```
+
+> Cria um commit com as mudanças que estão na area de staging, e registra a mensagem desejada, podendo haver outros prefixos além do `feat`, como `fix`,`docs`,`style` e etc.
+
+---
+
+## 🏜️ 20. Enviar novo branch com atualizações
+
+```bash
+git push
+```
+
+> Envia o novo branch com as alterações feitas para o reporitório do GitHub
+
+---
+
+## 🌟 Como usar o GitFluence
+
+O GitFluence é um site de Inteligência Artificial que gera comandos Git a partir do que for pedido pelo usuário. Por exemplo:
+> Se for pedido para o site como "ver branches existentes", será gerado o código:
+> ```bash
+> git branch
+> ```
+Após isso, é só copiar o código e usá-lo no terminal Git
+> Também é possível que o GitFluence seja usado com IA no GitHub Codespaces ou VS Code, se instalar como extensão, assim ele sugere comandos diretamente no ambiente de desenvolvimento.
+
+---
+
 ## 📘 Créditos
 
 Material criado para fins educacionais na aula prática de **Git Local**,  
